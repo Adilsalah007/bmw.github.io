@@ -1,0 +1,276 @@
+
+@import url(https://db.onlinewebfonts.com/c/e9de4f4d373ef5c6d9cf52490816ff5d?family=BMW+Type+Web+Light+All);
+body {
+    margin: 0 auto;
+    font-family: "BMW Type Web Light All";
+}
+
+.image-body {
+    background-image: url("https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/i-series/ix/ix50/Banner-desktop.png/jcr:content/renditions/cq5dam.resized.img.1680.large.time1710832306635.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 690px;
+}
+
+.sub-header {
+    width: 1280;
+    display: flex;
+    height: 80px;
+    border-bottom: solid;
+    border-width: 1pt;
+    border-color: rgb(234, 232, 232);   
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;;
+    margin-left: 0;
+}
+
+.nav-link-content{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    
+}
+.nav-link-content li{
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin: 3px;
+    
+}
+
+.icon-align {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 350px;
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+.icon-align i{
+    padding: 20px;
+
+}
+
+.image-text {
+    margin: 200px;
+    color: white;
+    margin-left: 80px;
+    padding: 20px;
+    
+    
+
+}
+
+.image-text-bottom span{
+    font-size: 60px;
+    
+
+    
+}
+.text-2{
+    font-size: x-large;
+    font-weight: lighter;
+}
+.image-link {
+    background-color: #1c69d4;
+    color: white;
+    padding: 0px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 4px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.type-1{
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    margin-top: 40px;
+    background-image: url("https://bmw.scene7.com/is/image/BMW/neue-klasse-x_stage:16to7?fmt=webp&wid=2560&hei=1120");
+    
+}
+.type-content{
+    font-weight: bold;
+    margin: 200px;
+    color: white;
+    margin-left: 80px;
+    padding: 20px;
+    font-size: largers;
+}
+.type-content span{
+    font-size: 50px;
+    font-weight: 50;
+}
+
+
+.section-1{
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-family: BMW Type Web Light All;
+
+}
+.section-1-content p{
+    color: #666;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-eyebrow1);
+    line-height: 1.25rem;
+    margin-top: 30px;
+    letter-spacing: .175rem;
+
+
+}
+.section-1-content h4{
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-size:50px;
+    font-weight: lighter;
+    line-height: 3rem;
+    letter-spacing: .175rem;
+    color: #262626;
+}
+* {
+    box-sizing: border-box;
+  }
+  .section-img{
+    display: block;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .row {
+    
+    object-fit: cover;   
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 150px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+  
+  .section-2{
+    background-image: url(https://www.bmw.in/content/dam/bmw/common/all-models/7-series/sedan/2022/highlights/bmw-7-series-sedan-sp-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1687163904230.jpg);
+    width: 100%;
+    height: 550px; 
+    background-size: cover; 
+}
+.section-2-content{
+    color: white;
+    font-size:40px;
+    font-weight: lighter;
+    margin: 150px;
+    padding-top: 250px;
+    letter-spacing: .175rem;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color:white;
+}
+
+.footer-top {
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+.footer-top-content {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 900px;
+    padding-top: 80px;
+    
+}
+
+.footer-top-content a {
+    padding-right: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+}
+
+.footer-bottom {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+}
+
+.final-content {
+    width: 210px;
+    height: 250px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 20px;
+    color: black;
+    
+}
+
+.final-content h2,
+p {
+    font-weight: lighter;
+    font-size: small;
+    font: black
+    ;
+}
+
+.final-content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.155;
+}
+
+.footer-out {
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+.footer-out p {
+    padding-left: 10%;
+    padding-top: 20px;
+    float: left;
+}
+
+.footer-out div {
+    margin-left: 800px;
+    padding-top: 30px;
+}
+
+.footer-out a {
+    font-size: 10px;
+    text-decoration: none;
+    padding-right: 30px;
+    color:black;
+    font-weight: bold;
+    padding: 0;
+    padding: 20px;
+    margin-left: 20px;
+}
